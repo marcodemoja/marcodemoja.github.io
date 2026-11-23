@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marco De Moja · AI Engineer e automazione dei processi</title>
+  <meta name="description" content="Marco De Moja è un AI engineer che analizza i processi aziendali e di sviluppo per decidere quali passaggi scrivere come codice deterministico e quali affidare a valutazioni e decisioni a runtime dell'AI, e poi realizza entrambi. Certificato in Agentic AI e RAG. Da remoto in tutta l'UE.">
+  <meta name="author" content="Marco De Moja">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://marcodemoja.github.io/it/">
+  <link rel="alternate" hreflang="en" href="https://marcodemoja.github.io/">
+  <link rel="alternate" hreflang="it" href="https://marcodemoja.github.io/it/">
+  <link rel="alternate" hreflang="x-default" href="https://marcodemoja.github.io/">
+  <meta name="theme-color" content="#0f172a">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Marco De Moja · AI Engineer e automazione dei processi">
+  <meta property="og:description" content="Codice dove si può, AI dove serve decidere. Analizzo i processi, automatizzo i passaggi deterministici e uso l'AI solo dove serve una decisione a runtime.">
+  <meta property="og:url" content="https://marcodemoja.github.io/it/">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/5123884?v=4">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta property="profile:first_name" content="Marco">
+  <meta property="profile:last_name" content="De Moja">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Marco De Moja · AI Engineer e automazione dei processi">
+  <meta name="twitter:description" content="Codice dove si può, AI dove serve decidere. Analizzo i processi, automatizzo i passaggi deterministici e uso l'AI solo dove serve una decisione a runtime.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f172a'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='28' fill='%2338bdf8'%3EMD%3C/text%3E%3C/svg%3E">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Marco De Moja",
+    "alternateName": "Marco De Mojà",
+    "url": "https://marcodemoja.github.io/it/",
+    "image": "https://avatars.githubusercontent.com/u/5123884?v=4",
+    "jobTitle": "AI Engineer",
+    "description": "AI engineer che analizza i processi per separare i passaggi che si possono scrivere come codice deterministico da quelli che richiedono valutazioni e decisioni a runtime dell'AI, e realizza automazioni ibride affidabili.",
+    "address": { "@type": "PostalAddress", "addressCountry": "IT" },
+    "knowsLanguage": ["it", "en", "fr"],
+    "knowsAbout": ["AI engineering", "Analisi dei processi", "Automazione dei flussi di lavoro", "Sistemi ibridi deterministici e AI", "Valutazione con LLM", "Agentic AI", "Flussi di lavoro con agenti AI", "Retrieval Augmented Generation", "Large language model", "Produttività degli sviluppatori", "GitHub Copilot agents", "llama.cpp", "Ollama", "Python", "FastAPI", "TypeScript", "React", "Angular", "Node.js", "PostgreSQL"],
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "Agentic AI", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "DeepLearning.AI" } },
+      { "@type": "EducationalOccupationalCredential", "name": "Retrieval Augmented Generation (RAG)", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "DeepLearning.AI" } },
+      { "@type": "EducationalOccupationalCredential", "name": "Practical Python for AI Coding 1", "credentialCategory": "certificate", "recognizedBy": { "@type": "CollegeOrUniversity", "name": "KAIST" } }
+    ],
+    "sameAs": [
+      "https://github.com/marcodemoja",
+      "https://www.linkedin.com/in/marcodemoja"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f8fafc; --surface: #ffffff; --text: #0f172a; --muted: #475569;
+      --border: #e2e8f0; --accent: #0369a1; --accent-soft: #e0f2fe; --chip: #f1f5f9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1120; --surface: #111827; --text: #e5e7eb; --muted: #94a3b8;
+        --border: #1f2937; --accent: #38bdf8; --accent-soft: #0c2a3e; --chip: #1e293b;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    a { color: var(--accent); }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+    header.site { border-bottom: 1px solid var(--border); background: var(--surface); position: sticky; top: 0; z-index: 10; }
+    header.site .wrap { display: flex; align-items: center; justify-content: space-between; height: 56px; gap: 12px; }
+    header.site .brand { font-weight: 700; text-decoration: none; color: var(--text); white-space: nowrap; }
+    nav ul { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
+    nav a:hover { color: var(--accent); }
+    .hero { padding: 72px 0 48px; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero img { width: 132px; height: 132px; border-radius: 50%; border: 3px solid var(--border); }
+    .eyebrow { color: var(--accent); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 13px; margin: 0 0 8px; }
+    h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; margin: 0 0 16px; }
+    .lead { font-size: 1.15rem; color: var(--muted); margin: 0 0 24px; max-width: 34em; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn { display: inline-block; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; border: 1px solid var(--border); color: var(--text); background: var(--surface); }
+    .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    @media (prefers-color-scheme: dark) { .btn.primary { color: #0b1120; } }
+    section { padding: 40px 0; border-top: 1px solid var(--border); }
+    h2 { font-size: 1.6rem; margin: 0 0 20px; }
+    h3 { font-size: 1.2rem; margin: 0 0 6px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px; }
+    .card p { margin: 0; color: var(--muted); }
+    .project { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 28px; margin-bottom: 20px; }
+    .project .tagline { color: var(--muted); margin: 0 0 16px; }
+    .project h4 { margin: 20px 0 8px; font-size: 1rem; }
+    .project ul { margin: 0; padding-left: 20px; }
+    .project li { margin-bottom: 6px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; padding: 0; list-style: none; }
+    .chips li { background: var(--chip); border-radius: 999px; padding: 3px 11px; font-size: 13px; color: var(--muted); margin: 0; }
+    .badge { display: inline-block; background: var(--accent-soft); color: var(--accent); font-size: 12px; font-weight: 600; border-radius: 6px; padding: 2px 8px; margin-left: 8px; vertical-align: middle; }
+    .skills dl { margin: 0; display: grid; grid-template-columns: 160px 1fr; gap: 10px 20px; }
+    .skills dt { font-weight: 600; }
+    .skills dd { margin: 0; color: var(--muted); }
+    footer { border-top: 1px solid var(--border); padding: 28px 0 48px; color: var(--muted); font-size: 14px; }
+    @media (max-width: 640px) {
+      nav { display: none; }
+      .hero { grid-template-columns: 1fr; padding-top: 40px; }
+      .grid { grid-template-columns: 1fr; }
+      .hero img { order: -1; width: 96px; height: 96px; }
+      .skills dl { grid-template-columns: 1fr; gap: 2px; }
+      .skills dd { margin-bottom: 12px; }
+      .project { padding: 20px; }
+    }
+    .job { padding: 18px 0; border-bottom: 1px solid var(--border); }
+    .job:last-child { border-bottom: 0; }
+    .job header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; align-items: baseline; }
+    .job h3 { margin: 0; }
+    .job .when { color: var(--muted); font-size: 14px; white-space: nowrap; }
+    .job .org { color: var(--accent); font-weight: 600; margin: 2px 0 8px; }
+    .job ul { margin: 0; padding-left: 20px; }
+    .job li { margin-bottom: 4px; }
+    .earlier { color: var(--muted); padding-left: 20px; margin: 16px 0 0; }
+    .earlier li { margin-bottom: 4px; }
+    .stats { display: flex; flex-wrap: wrap; gap: 28px; margin: 28px 0 0; }
+    .stats div { min-width: 120px; }
+    .stats strong { display: block; font-size: 1.6rem; line-height: 1.2; }
+    .stats span { color: var(--muted); font-size: 14px; }
+    .certs { list-style: none; padding: 0; margin: 0; }
+    .certs li { padding: 10px 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .certs li:last-child { border-bottom: 0; }
+    .certs span { color: var(--muted); font-size: 14px; }
+    .case { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 24px; }
+    .case .kicker { color: var(--accent); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; margin: 0 0 6px; }
+    .case p { margin: 0 0 10px; color: var(--muted); }
+    .case ul { margin: 0; padding-left: 20px; }
+    .case li { margin-bottom: 4px; }
+    .cases { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .certs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .cert { background: var(--accent-soft); border-radius: 12px; padding: 18px; }
+    .cert strong { display: block; font-size: 1.05rem; line-height: 1.35; }
+    .cert span { color: var(--muted); font-size: 14px; }
+    @media (max-width: 640px) { .cases, .certs-grid { grid-template-columns: 1fr; } }
+    .kicker { color: var(--accent); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; margin: 0 0 6px; }
+    .card .kicker { color: var(--accent); margin-bottom: 4px; }
+    .split { display: grid; grid-template-columns: auto 1fr; gap: 6px 10px; margin: 12px 0 0; padding: 12px 14px; background: var(--chip); border-radius: 10px; font-size: 14px; }
+    .split dt { font-weight: 700; }
+    .split dd { margin: 0; color: var(--muted); }
+    header.site nav { margin-left: auto; }
+    .lang { font-size: 13px; font-weight: 700; text-decoration: none; border: 1px solid var(--border); border-radius: 6px; padding: 3px 8px; color: var(--text); }
+    .lang:hover { border-color: var(--accent); color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="#top">Marco De Moja</a>
+      <nav aria-label="Principale">
+        <ul>
+          <li><a href="#approach">Metodo</a></li>
+          <li><a href="#what-i-do">Servizi</a></li>
+          <li><a href="#ai-work">Progetti AI</a></li>
+          <li><a href="#certifications">Certificazioni</a></li>
+          <li><a href="#skills">Competenze</a></li>
+          <li><a href="#contact">Contatti</a></li>
+        </ul>
+      </nav>
+      <a class="lang" href="../" hreflang="en" lang="en" title="English version">EN</a>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">AI Engineer · Analisi e automazione dei processi · Da remoto, UE</p>
+        <h1>Codice dove si può. AI dove serve decidere.</h1>
+        <p class="lead">Analizzo i tuoi processi per capire quali passaggi si possono scrivere come codice deterministico e quali hanno davvero bisogno dell'AI per valutare e decidere a runtime. Poi realizzo entrambi: l'automazione resta affidabile, economica e verificabile, e l'AI va solo dove aggiunge valore reale.</p>
+        <div class="actions">
+          <a class="btn primary" href="#approach">Come lavoro</a>
+          <a class="btn" href="https://github.com/marcodemoja" rel="me">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/marcodemoja" rel="me">LinkedIn</a>
+        </div>
+        <div class="stats">
+          <div><strong>3</strong><span>certificazioni AI</span></div>
+          <div><strong>2 sprint</strong><span>per un major upgrade con agenti AI</span></div>
+          <div><strong>8 fasi</strong><span>di pipeline LLM in produzione</span></div>
+        </div>
+      </div>
+      <img src="https://avatars.githubusercontent.com/u/5123884?v=4" alt="Ritratto di Marco De Moja" width="132" height="132">
+    </div>
+
+    <section id="approach" aria-labelledby="approach-h">
+      <h2 id="approach-h">Il mio metodo</h2>
+      <p>La maggior parte dei processi non ha bisogno dell'AI ovunque. Usarla ovunque li rende più lenti, più costosi e meno affidabili. Non usarla affatto lascia alle persone tutte le valutazioni. Il mio lavoro è tracciare quel confine con precisione.</p>
+      <div class="grid steps">
+        <div class="card"><p class="kicker">1 · Analisi</p><h3>Mappare il processo</h3><p>Scompongo il flusso di lavoro passo per passo ed esamino input, regole e decisioni dietro ciascuno.</p></div>
+        <div class="card"><p class="kicker">2 · Separazione</p><h3>Deterministico o AI?</h3><p>I passaggi con regole chiare diventano codice semplice e testato. Quelli che richiedono giudizio su input disordinati o aperti diventano valutazioni e decisioni a runtime dell'AI.</p></div>
+        <div class="card"><p class="kicker">3 · Sviluppo</p><h3>Automatizzare le regole</h3><p>La parte deterministica è software tradizionale: prevedibile, veloce, economico da eseguire e facile da testare.</p></div>
+        <div class="card"><p class="kicker">4 · Controllo</p><h3>Vincolare l'AI</h3><p>Ogni decisione dell'AI passa da validatori, controlli deterministici, revisione umana dove serve e una traccia completa per l'audit.</p></div>
+      </div>
+      <p style="margin-top:20px">Arrivo all'AI da più di dieci anni di sviluppo software e di guida di team tecnici: è questo che mi permette di inserirla in codebase, processi di rilascio e team reali, non in semplici demo. Vivo in Italia e lavoro da remoto in tutta l'UE.</p>
+    </section>
+
+    <section id="certifications" aria-labelledby="certs-h">
+      <h2 id="certs-h">Certificazioni</h2>
+      <div class="certs-grid">
+        <div class="cert"><strong>Agentic AI</strong><span>DeepLearning.AI · set 2026</span></div>
+        <div class="cert"><strong>Retrieval Augmented Generation (RAG)</strong><span>DeepLearning.AI · ago 2026</span></div>
+        <div class="cert"><strong>Practical Python for AI Coding 1</strong><span>KAIST · mar 2024</span></div>
+      </div>
+    </section>
+
+    <section id="what-i-do" aria-labelledby="what-h">
+      <h2 id="what-h">Come posso aiutarti</h2>
+      <div class="grid">
+        <div class="card"><h3>Analisi dei processi</h3><p>Una mappa chiara del tuo flusso di lavoro: quali passaggi automatizzare con il codice, quali affidare a una decisione dell'AI e quali lasciare alle persone.</p></div>
+        <div class="card"><h3>Automazione ibrida</h3><p>Pipeline deterministiche con l'AI nei punti di decisione, così l'automazione resta affidabile e i costi prevedibili.</p></div>
+        <div class="card"><h3>Valutazioni e decisioni AI a runtime</h3><p>Passaggi LLM che classificano, valutano o generano, dietro interfacce verso i provider, validatori e test. Modelli self-hosted o tramite provider.</p></div>
+        <div class="card"><h3>Flussi AI per team di sviluppo</h3><p>Agenti sviluppatore e revisore, skill personalizzate che traducono i tuoi standard in regole e memoria persistente per gli agenti, introdotti in modo che tutto il team li adotti.</p></div>
+      </div>
+    </section>
+
+    <section id="ai-work" aria-labelledby="ai-h">
+      <h2 id="ai-h">Progetti AI</h2>
+      <p>Progetti reali, costruiti tutti sulla stessa separazione tra codice deterministico e decisioni dell'AI.</p>
+      <div class="cases">
+        <article class="case">
+          <p class="kicker">Automazione ibrida · in produzione</p>
+          <h3>Pro Circuit: allenamenti generati con l'AI</h3>
+          <p>Un'app Android di fitness, pubblicata su Google Play, che crea circuiti a corpo libero in base al livello e all'attrezzatura di ogni utente.</p>
+          <dl class="split">
+            <dt>AI</dt><dd>Compone un circuito adatto al livello, all'attrezzatura e agli obiettivi dell'utente, su un LLM self-hosted (llama.cpp con Vulkan).</dd>
+            <dt>Codice</dt><dd>Un validatore controlla ogni output del modello, mentre scale di difficoltà, timer a intervalli e sincronizzazione offline sono codice semplice e testato.</dd>
+          </dl>
+          <ul style="margin-top:12px">
+            <li>Un'interfaccia verso i provider che supporta anche Ollama e le API compatibili con OpenAI, così il modello si cambia senza toccare l'app.</li>
+          </ul>
+        </article>
+
+        <article class="case">
+          <p class="kicker">Pipeline di valutazione AI</p>
+          <h3>Una pipeline LLM in 8 fasi</h3>
+          <p>Ho costruito il catalogo di 259 esercizi di Pro Circuit partendo da un database aperto di esercizi e da LLM locali tramite Ollama.</p>
+          <dl class="split">
+            <dt>AI</dt><dd>Selezione di ogni esercizio, scrittura di nuove schede, annotazione in più passaggi e ordinamento delle progressioni.</dd>
+            <dt>Codice</dt><dd>Orchestrazione delle fasi, controlli sugli schemi e 282 test, con l'output di ogni fase conservato per l'audit.</dd>
+            <dt>Persone</dt><dd>Una revisione umana prima che qualsiasi contenuto vada online.</dd>
+          </dl>
+        </article>
+
+        <article class="case">
+          <p class="kicker">Automazione dei processi</p>
+          <h3>Digital Identity Builder</h3>
+          <p>Una piattaforma che elimina il lavoro manuale di un'agenzia di marketing che gestisce la presenza online di piccole imprese su Google, Facebook, Instagram, Apple Maps e Bing.</p>
+          <dl class="split">
+            <dt>Codice</dt><dd>Tutto ciò che ha regole chiare: un adapter per ogni piattaforma, confronti campo per campo riscritti tramite le API e un worker di audit in background con quote sui costi.</dd>
+            <dt>Persone</dt><dd>Dove non esiste un'API utilizzabile, brevi guide passo passo per il titolare, e un flusso che chiede al cliente solo ciò che manca.</dd>
+          </dl>
+          <p style="margin-top:12px">Un buon esempio dell'analisi: gran parte di questo processo non ha bisogno dell'AI, quindi resta veloce, economico e prevedibile.</p>
+        </article>
+
+        <article class="case">
+          <p class="kicker">Produttività degli sviluppatori</p>
+          <h3>Flusso con agenti AI per un team frontend</h3>
+          <p>Ho progettato un flusso di sviluppo assistito dall'AI su GitHub Copilot per un team di quattro sviluppatori, su un'app di circa 120 componenti.</p>
+          <dl class="split">
+            <dt>AI</dt><dd>Un agente sviluppatore e un agente revisore che scrivono e revisionano il codice, con memoria persistente per portare avanti i task lunghi tra una sessione e l'altra.</dd>
+            <dt>Regole</dt><dd>Skill personalizzate che codificano best practice, standard di codice e regole di stile, così l'output degli agenti segue le convenzioni del team.</dd>
+          </dl>
+          <ul style="margin-top:12px">
+            <li>Adottato da tutto il team e usato per rilasciare in 2 sprint un aggiornamento di due versioni major del framework, a piccoli incrementi e senza bloccare lo sviluppo delle funzionalità.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="background" aria-labelledby="bg-h">
+      <h2 id="bg-h">Esperienza di sviluppo</h2>
+      <p>Prima di concentrarmi sull'AI ho lavorato per oltre 10 anni come senior engineer, frontend architect e team lead su grandi applicazioni web. È la base che porto in ogni progetto AI:</p>
+      <ul>
+        <li>Ho guidato team fino a 6 sviluppatori, definito standard di sviluppo e fatto da mentore.</li>
+        <li>Ho realizzato aggiornamenti e migrazioni di framework in modo incrementale, senza fermare lo sviluppo.</li>
+        <li>Ho costruito interfacce real-time e con grandi volumi di dati, riducendo i tempi di caricamento del 30-40%.</li>
+        <li>Ho progettato architetture con monorepo, micro-frontend, librerie di componenti condivise e sistemi di design token.</li>
+        <li>Ho realizzato prodotti full-stack dall'inizio alla fine, dalle API in Python o Node con PostgreSQL alle app web React e alle app mobile React Native.</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="skills" aria-labelledby="skills-h">
+      <h2 id="skills-h">Competenze</h2>
+      <dl>
+        <dt>AI engineering</dt><dd>Analisi dei processi per separare passaggi deterministici e AI, valutazioni e decisioni LLM a runtime, flussi con agenti, agenti sviluppatore e revisore su GitHub Copilot, skill personalizzate, memoria persistente, RAG, validazione degli output LLM</dd>
+        <dt>Modelli e strumenti</dt><dd>llama.cpp, Ollama, API compatibili con OpenAI, astrazioni sui provider di modelli, inferenza self-hosted</dd>
+        <dt>Backend</dt><dd>Python, FastAPI, Node.js, Fastify, Express, PostgreSQL, SQLite, REST, GraphQL, WebSocket, OpenAPI</dd>
+        <dt>Frontend</dt><dd>TypeScript, React, Next.js, Angular, RxJS, React Native, Expo, Tailwind CSS, accessibilità</dd>
+        <dt>Architettura</dt><dd>Monorepo (Nx, npm workspaces), micro-frontend, librerie di componenti condivise, design system, migrazioni incrementali</dd>
+        <dt>Qualità e rilascio</dt><dd>pytest, Vitest, Jest, Cypress, SonarQube, GitHub Actions, Jenkins, Azure DevOps, Docker, AWS, Render</dd>
+        <dt>Lingue</dt><dd>Italiano (madrelingua), inglese (fluente), francese (livello professionale)</dd>
+      </dl>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Contatti</h2>
+      <p>Vuoi capire quali parti del tuo processo hanno davvero bisogno dell'AI? Sono disponibile per collaborazioni da remoto in tutta l'UE. Il modo migliore per contattarmi è <a href="https://www.linkedin.com/in/marcodemoja" rel="me">LinkedIn</a>, e il mio codice è su <a href="https://github.com/marcodemoja" rel="me">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Marco De Moja · Italia · Da remoto in tutta l'UE</div>
+  </footer>
+</body>
+</html>
